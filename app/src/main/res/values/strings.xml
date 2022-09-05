@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AplikasiKu</string>
+    <string name="title">Judul Artikel</string>
+    <string name="description">Deskripsi Artikel</string>
+    <string name="about">About Me</string>
+    <string name="name">Huda Putra Santosa</string>
+    <string name="email">hudaputrasantosa@gmail.com</string>
+    <string name="writer">Penulis</string>
+</resources>
