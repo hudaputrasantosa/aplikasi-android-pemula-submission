@@ -30,7 +30,6 @@ class DetailActivity : AppCompatActivity() {
         setContentView(R.layout.activity_detail)
         setActionBarTitle("Detail Article")
 
-
         val tvPhoto : ImageView = findViewById(R.id.iv_article)
         val tvTitle : TextView = findViewById(R.id.tv_title)
         val tvDate : TextView = findViewById(R.id.tv_date)
@@ -44,22 +43,11 @@ class DetailActivity : AppCompatActivity() {
         val tWriter  = intent.getStringExtra(EXTRA_WRITER)
 
         tvTitle.text = tTitle
-//        Glide.with(this).load(tPhoto).apply(RequestOptions()).into(tvPhoto)
-
         tvPhoto.setImageResource(tPhoto)
         tvDate.text = tDate
         tvDescription.text = tDescription
         tvWriter.text = tWriter
-
-
-//        list.addAll(ArticleData.listData)
-//        showDetailCardView()
-
     }
 
-//    private fun showDetailCardView() {
-//        rvArticle.layoutManager = LinearLayoutManager(this)
-//        val cardViewArticleAdapter = DetailAdapter(list)
-//        rvArticle.adapter = cardViewArticleAdapter
-//    }
+
 }

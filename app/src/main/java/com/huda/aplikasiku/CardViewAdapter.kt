@@ -20,7 +20,6 @@ class CardViewAdapter(private val listArticle : ArrayList<Article>) : RecyclerVi
 
     override fun onBindViewHolder(holder: CardViewViewHolder, position: Int) {
         val article = listArticle[position]
-
         Glide.with(holder.itemView.context)
             .load(article.photo)
             .apply(RequestOptions().override(350, 550))
