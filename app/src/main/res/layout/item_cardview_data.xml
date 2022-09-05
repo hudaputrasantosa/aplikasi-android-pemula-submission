@@ -13,7 +13,7 @@
     card_view:cardCornerRadius="4dp">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="160dp"
         android:padding="8dp">
 
         <ImageView
@@ -23,12 +23,13 @@
             android:layout_marginBottom="4dp"
             android:scaleType="centerCrop"
             tools:src="@tools:sample/avatars" />
+
         <TextView
             android:id="@+id/tv_item_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
+
             android:layout_marginRight="16dp"
             android:layout_marginBottom="5dp"
             android:layout_toEndOf="@id/img_item_photo"
